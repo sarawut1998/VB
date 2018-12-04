@@ -43,12 +43,11 @@ Partial Class Form2
         '
         'lblSales
         '
-        Me.lblSales.AutoSize = True
         Me.lblSales.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.lblSales.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lblSales.Location = New System.Drawing.Point(271, 117)
         Me.lblSales.Name = "lblSales"
-        Me.lblSales.Size = New System.Drawing.Size(95, 24)
+        Me.lblSales.Size = New System.Drawing.Size(95, 27)
         Me.lblSales.TabIndex = 15
         Me.lblSales.Text = "                 "
         '
@@ -90,56 +89,51 @@ Partial Class Form2
         '
         'lblSales2
         '
-        Me.lblSales2.AutoSize = True
         Me.lblSales2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.lblSales2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lblSales2.Location = New System.Drawing.Point(271, 158)
         Me.lblSales2.Name = "lblSales2"
-        Me.lblSales2.Size = New System.Drawing.Size(95, 24)
+        Me.lblSales2.Size = New System.Drawing.Size(95, 27)
         Me.lblSales2.TabIndex = 15
         Me.lblSales2.Text = "                 "
         '
         'lblSumSales
         '
-        Me.lblSumSales.AutoSize = True
         Me.lblSumSales.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.lblSumSales.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lblSumSales.Location = New System.Drawing.Point(271, 200)
         Me.lblSumSales.Name = "lblSumSales"
-        Me.lblSumSales.Size = New System.Drawing.Size(95, 24)
+        Me.lblSumSales.Size = New System.Drawing.Size(95, 27)
         Me.lblSumSales.TabIndex = 15
         Me.lblSumSales.Text = "                 "
         '
         'lblCommitmentx5
         '
-        Me.lblCommitmentx5.AutoSize = True
         Me.lblCommitmentx5.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.lblCommitmentx5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lblCommitmentx5.Location = New System.Drawing.Point(271, 241)
         Me.lblCommitmentx5.Name = "lblCommitmentx5"
-        Me.lblCommitmentx5.Size = New System.Drawing.Size(95, 24)
+        Me.lblCommitmentx5.Size = New System.Drawing.Size(95, 27)
         Me.lblCommitmentx5.TabIndex = 15
         Me.lblCommitmentx5.Text = "                 "
         '
         'lblCommitmentx10
         '
-        Me.lblCommitmentx10.AutoSize = True
         Me.lblCommitmentx10.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.lblCommitmentx10.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lblCommitmentx10.Location = New System.Drawing.Point(271, 286)
         Me.lblCommitmentx10.Name = "lblCommitmentx10"
-        Me.lblCommitmentx10.Size = New System.Drawing.Size(95, 24)
+        Me.lblCommitmentx10.Size = New System.Drawing.Size(95, 27)
         Me.lblCommitmentx10.TabIndex = 15
         Me.lblCommitmentx10.Text = "                 "
         '
         'lblCommitmentSum
         '
-        Me.lblCommitmentSum.AutoSize = True
         Me.lblCommitmentSum.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.lblCommitmentSum.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lblCommitmentSum.Location = New System.Drawing.Point(271, 331)
         Me.lblCommitmentSum.Name = "lblCommitmentSum"
-        Me.lblCommitmentSum.Size = New System.Drawing.Size(95, 24)
+        Me.lblCommitmentSum.Size = New System.Drawing.Size(95, 27)
         Me.lblCommitmentSum.TabIndex = 15
         Me.lblCommitmentSum.Text = "                 "
         '

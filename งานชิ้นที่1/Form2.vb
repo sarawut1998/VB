@@ -9,21 +9,16 @@
 
         Computer = txtcomputer.Text
         Printer = txtprinter.Text
+        Sumsales = Computer + Printer
+        Commitmentx5 = Computer * 0.05
+        Commitmentx10 = Printer * 0.1
+        CommitmentSum = Commitmentx5 + Commitmentx10
+
         lblSales.Text = Computer
         lblSales2.Text = Printer
-
-        Sumsales = Computer + Printer
         lblSumSales.Text = Sumsales
-
-        Commitmentx5 = Sumsales * 0.05
         lblCommitmentx5.Text = Commitmentx5
-
-        Commitmentx10 = Sumsales * 0.1
         lblCommitmentx10.Text = Commitmentx10
-
-        CommitmentSum = Commitmentx5 + Commitmentx10
         lblCommitmentSum.Text = CommitmentSum
-
-
     End Sub
 End Class
