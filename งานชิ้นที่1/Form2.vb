@@ -21,4 +21,8 @@
         lblCommitmentx10.Text = Commitmentx10
         lblCommitmentSum.Text = CommitmentSum
     End Sub
+
+    Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

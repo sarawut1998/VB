@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.WindowsApp4.Form2
+            Me.MainForm = Global.WindowsApp4.frmColor
         End Sub
     End Class
 End Namespace
