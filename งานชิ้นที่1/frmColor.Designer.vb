@@ -56,6 +56,7 @@ Partial Class frmColor
         '
         'txtInput
         '
+        Me.txtInput.BackColor = System.Drawing.SystemColors.InactiveBorder
         Me.txtInput.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.txtInput.Location = New System.Drawing.Point(160, 55)
         Me.txtInput.Multiline = True
@@ -96,6 +97,7 @@ Partial Class frmColor
         '
         'cboSize
         '
+        Me.cboSize.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSize.FormattingEnabled = True
         Me.cboSize.Items.AddRange(New Object() {"12", "14", "16", "18", "20", "22", "24", "26", "28", "30", "32", "34", "36", "38", "40", "42", "44", "46", "48", "50"})
         Me.cboSize.Location = New System.Drawing.Point(482, 149)
@@ -378,6 +380,7 @@ Partial Class frmColor
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.ClientSize = New System.Drawing.Size(594, 334)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
